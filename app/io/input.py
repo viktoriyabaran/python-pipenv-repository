@@ -17,10 +17,10 @@ def read_file(file_path: str) -> str:
     Reads and returns text from the file with the given path
 
     Args:
-        file_path (str): Relative or absolute path to the CSV file
+        file_path (str): Relative or absolute path to the file
 
     Returns: 
-        test (str): Text read from the file
+        text (str): Text read from the file
     """
     with open(file_path, "r", encoding="utf-8") as f:
         text = f.read()
