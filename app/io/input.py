@@ -37,5 +37,4 @@ def read_file_pandas(file_path: str) -> pd.DataFrame:
         pd.DataFrame: Data read from the file as a pandas DataFrame.
     """
     df = pd.read_csv(file_path)
-    print(type(df))
     return df
